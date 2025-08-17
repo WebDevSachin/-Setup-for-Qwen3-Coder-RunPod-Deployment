@@ -46,7 +46,10 @@ export OLLAMA_ORIGINS=*
 
 ### 3. Model Installation
 
+
 ```bash
+ollama serve &
+
 # Pull Qwen3-Coder model
 ollama pull qwen3-coder
 
